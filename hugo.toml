@@ -1,3 +1,20 @@
 languageCode = 'en-us'
 title = 'TJ Blog'
 theme = 'PaperMod'
+
+[params]
+ShowToc = true
+TocOpen = true
+comments = true
+
+  [params.commentsParams]
+  repo = "QJieWang/TJBlog"
+  repoId = "R_kgDOMJAddg"
+  category = "Announcements"
+  categoryId = "DIC_kwDOMJAdds4CgKZZ"
+  mapping = "pathname"
+  reactionsEnabled = 1
+  emitMetadata = 0
+  loading = "lazy"
+  inputPosition = "top"
+  lang = "zh-CN"
