@@ -21,6 +21,9 @@ menu:
       url: /search/
       weight: 30
 params:
+  ShowCodeCopyButtons: true
+  ShowShareButtons: true
+  ShowReadingTime: true
   ShowToc: true
   TocOpen: true
   comments: true
@@ -47,3 +50,7 @@ params:
       - permalink
       - summary
       - content
+  editPost:
+    URL: "https://github.com/QJieWang/TJBlog/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
